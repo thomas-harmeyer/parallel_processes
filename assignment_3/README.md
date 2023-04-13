@@ -28,7 +28,7 @@ Our implementation ensures that presents are added to the list in the correct or
 
 The use of a ReentrantLock ensures that threads are not blocked indefinitely while accessing the linked-list. The lock provides a fairness policy that prevents starvation, allowing each servant to complete their tasks without being delayed indefinitely.
 
-#****# Results and Conclusion
+## Results and Conclusion
 
 In the simulation of the Minotaur's birthday present party scenario, our concurrent linked-list solution proved efficient, correct, and provided progress guarantees for the four servants. It allowed the Minotaur and his servants to complete their tasks more quickly than if they had used a sequential approach.
 
